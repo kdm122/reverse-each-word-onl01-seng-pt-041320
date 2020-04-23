@@ -6,8 +6,10 @@ def reverse_each_word(string)
   wordswords = string.split(/ /)
   
   wordswords.each do |block|
-    reversewords.unshift = block.revers
-    
+    reversewords.unshift = "#{block}".reverse
+  end
+  
+  puts reversewords.join
   puts wordswords
 end
 
